@@ -1,0 +1,32 @@
+$color1:#000000;
+$color2:#e020c0;
+$color3:#fff;
+
+*{margin: 0;padding: 0px; box-sizing: border-box;}
+a{text-decoration: none;font-size: 18px;}
+li{list-style: none;}
+
+
+@mixin Topo {
+    width: 100%;
+    font-family: 'Stick', sans-serif;
+}
+
+@mixin FlexCenter {
+    max-width: 90%;
+    display: flex;
+    justify-content: baseline;
+    margin: 0 auto;
+    padding: 20px;
+    align-items: center;
+}
+
+@mixin Hero {
+    height: 90vh;
+    background-image: url('../img/menu.png');
+}
+
+@mixin Precos{
+    display: flex;
+    flex-wrap: wrap;
+}

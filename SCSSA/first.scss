@@ -1,0 +1,43 @@
+@import 'last';
+
+
+header{
+    background-color:$color1;
+    @include Topo;
+
+    .container-menu{
+        @include FlexCenter;
+
+        h1{
+            color:$color2;
+        }
+
+        nav{
+           ul{
+            @include FlexCenter;
+            li{ padding-left: 50px;
+                a{color:$color3;
+                &:hover{color:$color2;transition: 1s;border-bottom: 2px solid $color2}}
+            }
+           }
+        }
+    }
+}
+
+
+main{
+    @include Hero;
+    color:$color3;
+    .container-hero{
+        @include FlexCenter;
+        .precos{
+            @include Precos;
+            .box{
+                max-width: 200px;
+                margin:10px 5px;
+            }
+        }
+
+    }
+  
+}
