@@ -24,20 +24,17 @@ header{
     }
 }
 
-
 main{
-    @include Hero;
-    color:$color3;
-    .container-hero{
-        @include FlexCenter;
-        .precos{
-            @include Precos;
-            .box{
-                max-width: 200px;
-                margin:10px 5px;
-            }
-        }
+    @include Precos;
+}
 
+
+.burg-container{
+    max-width: 70%;
+    @include Precos;
+    h2{padding: 20px 0px;}
+    .boxes{
+        @include Precos;
+         .box{padding-bottom: 20px;width: 300px;}
     }
-  
 }

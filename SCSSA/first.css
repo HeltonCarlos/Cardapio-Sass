@@ -3,11 +3,17 @@
   padding: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Stick', sans-serif;
 }
 
 a {
   text-decoration: none;
   font-size: 18px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 li {
@@ -17,7 +23,6 @@ li {
 header {
   background-color: #000000;
   width: 100%;
-  font-family: 'Stick', sans-serif;
 }
 
 header .container-menu {
@@ -70,36 +75,39 @@ header .container-menu nav ul li a:hover {
 }
 
 main {
-  height: 90vh;
-  background-image: url("../img/menu.png");
-  color: #fff;
-}
-
-main .container-hero {
-  max-width: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
-  margin: 0 auto;
-  padding: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-main .container-hero .precos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-main .container-hero .precos .box {
-  max-width: 200px;
-  margin: 10px 5px;
+.burg-container {
+  max-width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.burg-container h2 {
+  padding: 20px 0px;
+}
+
+.burg-container .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.burg-container .boxes .box {
+  padding-bottom: 20px;
+  width: 300px;
 }
 /*# sourceMappingURL=first.css.map */
